@@ -17,6 +17,14 @@
             padding: 2px 4px;
             font-family: Consolas, Monaco, monospace;
         }
+        .badge {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            font-size: 14px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
@@ -25,15 +33,14 @@
         Welcome to the README for your application. This document provides essential information about the application's purpose, features, setup, and usage.
     </p>
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-        <li><a href="#setup">Setup</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-        <li><a href="#license">License</a></li>
-    </ul>
+    <p>
+        <a href="#about">About</a> •
+        <a href="#technologies-used">Technologies Used</a> •
+        <a href="#setup">Setup</a> •
+        <a href="#usage">Usage</a> •
+        <a href="#contributors">Contributors</a> •
+        <a href="#license">License</a>
+    </p>
 
     <h2 id="about">About</h2>
     <p>
@@ -78,7 +85,8 @@
     <hr>
 
     <p align="center">
-        &copy; 2023 Your Application Name. All rights reserved.
+        &copy; 2023 Your Application Name. All rights reserved. <br>
+        <a href="LICENSE">View License</a>
     </p>
 </body>
 </html>
